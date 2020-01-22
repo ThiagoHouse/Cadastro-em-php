@@ -9,26 +9,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-
 ## Instalação
+# Banco de dados
+Criar um database no mysql com nome 'banco'
 
-php artisan serve
-
-## Observação
-Caso não rode apenas como artisan serve rode:
-
-composer install
-
-## Banco de dados
-
-Criar um database no mysql com nome da sua escolha
-
-## Alterar .Env
-
+# Alterar .Env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=banco //Seu banco
-DB_USERNAME=thiago  //seu Username
-DB_PASSWORD=thiago  //seu password
+DB_DATABASE=banco 
+DB_USERNAME=''  //seu Username
+DB_PASSWORD=''  //seu password
+
+# Rodar o app
+por fim rode:
+
+php artisan serve
+
+# Observação
+Caso não rode apenas como artisan serve experimente:
+
+composer install
+
+e rode nomvamene:
+
+php artisan serve
+
+
+
+
+
 
