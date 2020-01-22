@@ -15,14 +15,19 @@ Criar um database no mysql com nome 'banco'
 
 # Alterar .Env
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=banco 
+
 DB_USERNAME=''  //seu Username
+
 DB_PASSWORD=''  //seu password
 
 # Rodar o app
-por fim rode:
+execute no terminal:
 
 php artisan serve
 
@@ -31,7 +36,7 @@ Caso não rode apenas como artisan serve experimente:
 
 composer install
 
-e rode nomvamene:
+e
 
 php artisan serve
 
