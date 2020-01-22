@@ -18,3 +18,17 @@ php artisan serve
 Caso não rode apenas como artisan serve rode:
 
 composer install
+
+## Banco de dados
+
+Criar um database no mysql com nome da sua escolha
+
+## Alterar .Env
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=banco //Seu banco
+DB_USERNAME=thiago  //seu Username
+DB_PASSWORD=thiago  //seu password
+
