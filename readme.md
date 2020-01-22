@@ -11,7 +11,9 @@
 </p>
 
 # Banco de dados
-Criar um database no mysql com nome 'banco'
+Criar um database no mysql com nome 'banco' CREATE DATABASE BANCO;
+
+e depois:
 
 php artisan migrate:refresh
 
